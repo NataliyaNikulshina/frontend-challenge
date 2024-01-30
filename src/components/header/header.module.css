@@ -1,0 +1,33 @@
+.header {
+    background-color: #2196F3;
+    height: 64px;
+    width: 100%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.24);
+}
+
+.nav {
+    display: flex;
+    gap:8px;
+    padding-left: 62px;
+}
+
+.button {
+    color: #fff;
+    height: 100%;
+    border: none;
+    padding: 21px;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.button:disabled {
+    background: #1E88E5;
+}
